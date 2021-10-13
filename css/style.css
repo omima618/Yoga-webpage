@@ -11,7 +11,7 @@
     --color2: #0e3746;
     --sec-padding: 100px;
 }
-html{
+html {
     scroll-behavior: smooth;
 }
 ul {
@@ -284,10 +284,14 @@ header .icons i:hover {
 }
 /* basics section */
 .basics {
-    padding: var(--sec-padding) 0;
+    padding: 0 0 var(--sec-padding) 0;
 }
 .basics .container {
     text-align: center;
+}
+.basics .container h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
 }
 .basics .container .cards {
     display: grid;
@@ -736,12 +740,12 @@ header .icons i:hover {
     }
 }
 /* footer */
-footer{
+footer {
     text-align: center;
     padding: 15px 0;
     font-size: 17px;
 }
-footer .container span{
+footer .container span {
     color: var(--color1);
     font-size: 15px;
     font-style: italic;
