@@ -463,7 +463,7 @@ header .icons i:hover {
 }
 .testimonial .container .clients {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .testimonial .container .clients .client {
@@ -545,6 +545,11 @@ header .icons i:hover {
 .testimonial .container .arrows i:hover {
     background-color: var(--color2);
 }
+@media(max-width:992px){
+.testimonial .container .clients .client .name{
+    left: 30px;
+}
+}
 @media (max-width: 768px) {
     .testimonial .container .clients {
         flex-direction: column;
@@ -558,6 +563,9 @@ header .icons i:hover {
     .client:first-of-type {
         margin-bottom: 100px;
     }
+    .testimonial .container .clients .client .name{
+    left: 50px;
+}
 }
 /* contact section */
 .contact {
