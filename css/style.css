@@ -513,10 +513,10 @@ header .icons i:hover {
     align-items: flex-end;
     position: absolute;
     top: 50px;
-    left: 50px;
+    left: -40px;
     z-index: -1;
     padding: 10px 20px;
-    width: 100%;
+    width: calc(100% + 43px);
     height: 100%;
     font-size: 22px;
     font-weight: 600;
@@ -545,11 +545,6 @@ header .icons i:hover {
 .testimonial .container .arrows i:hover {
     background-color: var(--color2);
 }
-@media(max-width:992px){
-.testimonial .container .clients .client .name{
-    left: 30px;
-}
-}
 @media (max-width: 768px) {
     .testimonial .container .clients {
         flex-direction: column;
@@ -563,9 +558,6 @@ header .icons i:hover {
     .client:first-of-type {
         margin-bottom: 100px;
     }
-    .testimonial .container .clients .client .name{
-    left: 50px;
-}
 }
 /* contact section */
 .contact {
